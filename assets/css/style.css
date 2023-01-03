@@ -96,10 +96,18 @@ section {
   color: #ffffff;
 }
 
-.container .row .text-judul {
+.container .text-judul {
   text-align: center;
   font-family: quicksand;
   position: relative;
+  padding-top: 75px;
+  padding-bottom: 20px;
+}
+.container .text-judu {
+  text-align: center;
+  font-family: quicksand;
+  position: relative;
+  padding-bottom: 50px;
 }
 
 .container .row img {
@@ -110,4 +118,12 @@ section {
   height: 710px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.quote {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 287px;
+  top: 1866px;
 }

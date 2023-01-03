@@ -1,11 +1,8 @@
 <!DOCTYPE html>
-<!-- Created By CodingLab - www.codinglabweb.com -->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
-    <!--<title>Navigation Bar With Scroll Every Section</title>-->
     <link rel="stylesheet" href="assets/css/style.css" />
-    <!-- Fontawesome CDN Link -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
@@ -20,7 +17,7 @@
   </head>
   <body>
     <nav style="z-index: 1">
-      <div class="navbar mx-3">
+      <div class="navbar mx-5">
         <div class="logo">
           <a href="#">
             <img src="assets/img/logo_tancu.png" class="" />
@@ -34,12 +31,15 @@
             <a class="nav-link" href="#about">Tentang</a>
           </li>
           <li class="mt-3 nav-item">
-            <a class="nav-link" href="#category">Kenapa kami?</a>
+            <a class="nav-link" href="#fitur">Fitur</a>
+          </li>
+          <li class="mt-3 nav-item">
+            <a class="nav-link" href="#kata">Kata Mereka</a>
           </li>
         </ul>
       </div>
     </nav>
-    <div class="row">
+    <div class="row" id="home">
       <div class="col-md-12">
         <img class="jumbotron" src="assets/img/jumbotron.png" alt="" />
         <div class="text_jumbotron">
@@ -59,26 +59,270 @@
       </div>
     </div>
     <div class="container" id="about">
+      <div class="text-judul">
+        <h3>Tentang</h3>
+      </div>
       <div class="row">
-        <div class="row">
+        <div class="col-md-6">
           <img
             class="image-tentang"
             src="assets/img/image_tentang.png"
+            style="max-height: 480px"
             alt=""
           />
         </div>
-        <div class="text-judul">
-          <h3>Tentang</h3>
-          <p class="">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
-            officia minus sunt recusandae quas ipsam praesentium est, delectus
-            commodi voluptatibus nisi obcaecati saepe consequatur quo velit,
-            porro possimus rem provident officiis reiciendis, assumenda ab.
-            Eveniet voluptas doloribus veniam dolore doloremque unde repudiandae
-            aperiam ex, quos dolor accusantium? Officia vero aperiam quas autem
-            ea? Sequi, praesentium.
+        <div class="col-md-6">
+          <p>
+            Ada beberapa permasalahan yang dihadapi oleh petani sehingga minat
+            untuk menjadi petani menjadi berkurang, faktor yang menyebabkannya
+            diantara lain adalah kurangnya pengetahuan terhadap fundamental
+            pertanian, panjangnya rantai distribusi sehingga hasil (rupiah) yang
+            di dapatkan petani cukup rendah.
+            <br />
+            <br />
+            Tancu Hadir dengan berbagai fresh features yang dapat menyelesaikan
+            persoalan yang dialami oleh petani. kami hadir dengan dua fitur
+            utama yaitu
+            <strong>edukasi</strong>
+            dan
+            <strong>jual beli hasil tani</strong>
           </p>
         </div>
+      </div>
+    </div>
+    <div class="container" id="fitur">
+      <div class="text-judul">
+        <h3>Fitur</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div
+            class="card"
+            style="
+              height: 30rem;
+              background: linear-gradient(
+                154.68deg,
+                rgba(255, 210, 63, 0.4) 7.18%,
+                rgba(229, 234, 236, 0) 92.19%
+              );
+              box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+              backdrop-filter: blur(20px);
+              border-radius: 15px;
+            "
+          >
+            <img
+              class="card-img-top"
+              src="assets/img/edukasi.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Edukasi</h5>
+              <p class="card-text">
+                Fitur edukasi dapat meningkatkan pengetahuan ...
+              </p>
+              <a
+                href="#"
+                class="btn"
+                style="background: #934ab3; color: #ffffff"
+              >
+                Lihat Selengkapnya
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div
+            class="card"
+            style="
+              height: 30rem;
+              background: linear-gradient(
+                154.68deg,
+                rgba(255, 210, 63, 0.4) 7.18%,
+                rgba(229, 234, 236, 0) 92.19%
+              );
+              box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+              backdrop-filter: blur(20px);
+              border-radius: 15px;
+            "
+          >
+            <img
+              class="card-img-top"
+              src="assets/img/jb.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Jual Beli</h5>
+              <p class="card-text">
+                Fitur jual beli ini langsung menghubungkan pembeli dengan ...
+              </p>
+              <a
+                href="#"
+                class="btn"
+                style="background: #934ab3; color: #ffffff"
+              >
+                Lihat Selengkapnya
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div
+            class="card"
+            style="
+              height: 30rem;
+              background: linear-gradient(
+                154.68deg,
+                rgba(255, 210, 63, 0.4) 7.18%,
+                rgba(229, 234, 236, 0) 92.19%
+              );
+              box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+              backdrop-filter: blur(20px);
+              border-radius: 15px;
+            "
+          >
+            <img
+              class="card-img-top"
+              src="assets/img/konsultasi.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Konsultasi</h5>
+              <p class="card-text">
+                Fitur konsultasi ditujukan untuk konsultasi ke pakar-pakar yang
+                ...
+              </p>
+              <a
+                href="#"
+                class="btn"
+                style="background: #934ab3; color: #ffffff"
+              >
+                Lihat Selengkapya
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div
+            class="card"
+            style="
+              height: 30rem;
+              background: linear-gradient(
+                154.68deg,
+                rgba(255, 210, 63, 0.4) 7.18%,
+                rgba(229, 234, 236, 0) 92.19%
+              );
+              box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+              backdrop-filter: blur(20px);
+              border-radius: 15px;
+            "
+          >
+            <img
+              class="card-img-top"
+              src="assets/img/diskusi.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Diskusi</h5>
+              <p class="card-text">
+                Fitur diskusi bisa anda manfaatkan untuk melakukan diskusi ke
+                sesama ...
+              </p>
+              <a
+                href="#"
+                class="btn"
+                style="background: #934ab3; color: #ffffff"
+              >
+                Lihat Selengkapnya
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container mt-5"
+      id="kata"
+      style="background: #c2ffc5; border-radius: 15px; height: 690px"
+    >
+      <div class="quote">
+        <img src="assets/img/quote.png" alt="" />
+      </div>
+      <div class="text-judu">
+        <h3>Kata Mereka</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+          <div
+            class="card"
+            style="
+              height: 30rem;
+              background: linear-gradient(
+                154.68deg,
+                rgba(255, 210, 63, 0.4) 7.18%,
+                rgba(229, 234, 236, 0) 92.19%
+              );
+              box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+              backdrop-filter: blur(20px);
+              border-radius: 15px;
+            "
+          >
+            <img
+              class="card-img-top"
+              src="assets/img/edukasi.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Edukasi</h5>
+              <p class="card-text">
+                Fitur edukasi dapat meningkatkan pengetahuan ...
+              </p>
+              <a
+                href="#"
+                class="btn"
+                style="background: #934ab3; color: #ffffff"
+              >
+                Lihat Selengkapnya
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div
+            class="card"
+            style="
+              height: 30rem;
+              background: linear-gradient(
+                154.68deg,
+                rgba(255, 210, 63, 0.4) 7.18%,
+                rgba(229, 234, 236, 0) 92.19%
+              );
+              box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+              backdrop-filter: blur(20px);
+              border-radius: 15px;
+            "
+          >
+            <img
+              class="card-img-top"
+              src="assets/img/edukasi.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Edukasi</h5>
+              <p class="card-text">
+                Fitur edukasi dapat meningkatkan pengetahuan ...
+              </p>
+              <a
+                href="#"
+                class="btn"
+                style="background: #934ab3; color: #ffffff"
+              >
+                Lihat Selengkapnya
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3"></div>
       </div>
     </div>
 
