@@ -125,5 +125,23 @@ section {
   width: 32px;
   height: 32px;
   left: 287px;
-  top: 1866px;
+  top: 2049px;
+}
+.slider img {
+  margin-bottom: 50px;
+}
+
+footer {
+  height: 250px;
+  width: 100%;
+  background: #41a55f;
+}
+footer .gmail a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+footer span {
+  text-align: center;
+  color: #fff;
 }
