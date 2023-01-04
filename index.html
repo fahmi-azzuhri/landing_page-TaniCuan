@@ -126,7 +126,7 @@
                 Fitur edukasi dapat meningkatkan pengetahuan ...
               </p>
               <a
-                href="#"
+                href="#popup1"
                 class="btn"
                 style="background: #934ab3; color: #ffffff"
               >
@@ -161,7 +161,7 @@
                 Fitur jual beli ini langsung menghubungkan pembeli dengan ...
               </p>
               <a
-                href="#"
+                href="#popup2"
                 class="btn"
                 style="background: #934ab3; color: #ffffff"
               >
@@ -197,7 +197,7 @@
                 ...
               </p>
               <a
-                href="#"
+                href="#popup3"
                 class="btn"
                 style="background: #934ab3; color: #ffffff"
               >
@@ -233,7 +233,7 @@
                 sesama ...
               </p>
               <a
-                href="#"
+                href="#popup4"
                 class="btn"
                 style="background: #934ab3; color: #ffffff"
               >
@@ -242,17 +242,121 @@
             </div>
           </div>
         </div>
+        <div id="popup3" class="overlay">
+          <div class="popup">
+            <h2>Fitur Konsultasi</h2>
+            <a class="close" href="#fitur">&times;</a>
+            <div class="content">
+              <div class="row">
+                <div class="col-md-5">
+                  <img
+                    src="assets/img/ft-konsultasi.png"
+                    style="
+                      height: 250px;
+                      margin-bottom: 25px;
+                      border-radius: 15px;
+                    "
+                  />
+                </div>
+                <div class="col-md-7">
+                  <p style="text-align: justify">
+                    Fitur konsultasi ditujukan untuk konsultasi ke pakar pakar
+                    tanaman yang berpengalaman sesuai dengan bidangnya
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="popup1" class="overlay">
+          <div class="popup">
+            <h2>Fitur Edukasi</h2>
+            <a class="close" href="#fitur">&times;</a>
+            <div class="content">
+              <div class="row">
+                <div class="col-md-5">
+                  <img
+                    src="assets/img/ft-edukasi.png"
+                    style="
+                      height: 250px;
+                      margin-bottom: 25px;
+                      border-radius: 15px;
+                    "
+                  />
+                </div>
+                <div class="col-md-7">
+                  <p style="text-align: justify">
+                    Fitur edukasi dapat meningkatkan pengetahuan petani dengan
+                    materi yang sudah disediakan Tani Cuan. Setelah
+                    menyelesaikan materi, kamu akan mendapatkan reward berupa
+                    E-Sertifikat yang berguna untuk menaikkan penilaian pembeli
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="popup2" class="overlay">
+          <div class="popup">
+            <h2>Fitur Jual Beli</h2>
+            <a class="close" href="#fitur">&times;</a>
+            <div class="content">
+              <div class="row">
+                <div class="col-md-5">
+                  <img
+                    src="assets/img/ft-jualbeli.png"
+                    style="
+                      height: 250px;
+                      margin-bottom: 25px;
+                      border-radius: 15px;
+                    "
+                  />
+                </div>
+                <div class="col-md-7">
+                  <p style="text-align: justify">
+                    Fitur jual beli ini menghubungkan pembeli langsung dengan
+                    penjual tanpa melalui perantara, jadi harga jauh lebih murah
+                    dan hasil tani yang di dapat masih segar
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="popup4" class="overlay">
+          <div class="popup">
+            <h2>Fitur Diskusi</h2>
+            <a class="close" href="#fitur">&times;</a>
+            <div class="content">
+              <div class="row">
+                <div class="col-md-5">
+                  <img
+                    src="assets/img/ft-diskusi.png"
+                    style="
+                      height: 250px;
+                      margin-bottom: 25px;
+                      border-radius: 15px;
+                    "
+                  />
+                </div>
+                <div class="col-md-7">
+                  <p style="text-align: justify">
+                    Fitur Diskusi bisa anda manfaatkan untuk melakukan diskusi
+                    ke sesama petani tentang hal apa saja yang ingin anda bahas
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="slider" id="kata">
       <img src="assets/img/help.png" alt="" />
     </div>
-    <div
-      class="container mt-5"
-      style="background: #c2ffc5; border-radius: 15px; height: 690px"
-    >
+    <div class="container mt-5">
       <div class="quote">
-        <img src="assets/img/quote.png" alt="" />
+        <img src="assets/img/quote.png" />
       </div>
       <div class="text-judu">
         <h3>Kata Mereka</h3>
@@ -268,6 +372,8 @@
               box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
               backdrop-filter: blur(20px);
               border-radius: 15px;
+              overflow: hidden;
+              z-index: -2;
             "
           >
             <img
@@ -297,6 +403,7 @@
               box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
               backdrop-filter: blur(20px);
               border-radius: 15px;
+              z-index: -2;
             "
           >
             <img
